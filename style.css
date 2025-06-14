@@ -1,0 +1,49 @@
+/* Global styles */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+.container {
+  width: 90%;
+  max-width: 900px;
+  margin: auto;
+  padding: 2rem 0;
+}
+
+h1, h2 {
+  color: #c62828;
+}
+
+a {
+  color: #c62828;
+  text-decoration: none;
+}
+
+/* Sections */
+header {
+  background: #212121;
+  color: white;
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.about, .services, .contact {
+  background: white;
+  margin: 1rem 0;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+/* Footer */
+footer {
+  background: #eeeeee;
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 0.9rem;
+  color: #666;
+}
